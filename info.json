@@ -1,0 +1,23 @@
+{
+    "name": "InjectEtwBypass",
+    "description": "Injects an ETW bypass into a remote process via direct syscalls using HellsGate and HalosGate, patching NTDLL.EtwEventWrite to suppress ETW telemetry in the target process.",
+    "version": "0.0.1",
+    "uuid": "d4e5f6a7-b8c9-4012-3456-def890123456",
+    "command": "inject-etwbypass",
+    "type": "bof",
+    "repository": "https://github.com/nukeratarmory/InjectEtwBypass",
+    "metadata": {
+        "author": [
+            {
+                "name": "boku7",
+                "original_repository": "https://github.com/boku7/injectEtwBypass"
+            }
+        ],
+        "platform": [
+            "windows"
+        ],
+        "architecture": [
+            "x64"
+        ]
+    }
+}
