@@ -1,7 +1,6 @@
 {
     "name": "InjectEtwBypass",
     "version": "0.0.1",
-    "uuid": "d4e5f6a7-b8c9-4012-3456-def890123456",
     "command": "inject-etwbypass",
     "type": "bof",
     "repository": "https://github.com/nukeratarmory/InjectEtwBypass",
